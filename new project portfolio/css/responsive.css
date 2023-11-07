@@ -1,0 +1,134 @@
+
+@media (min-width: 1920px) {
+.work-right-text {
+  padding: 150px 150px;
+}
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+	
+
+    
+}
+
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.main-menu ul.navbar-nav li {
+    padding: 0 10px;
+}
+
+    
+    
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width:300px}
+.logo {
+    height: inherit;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 999999;
+}
+.logo a {
+    padding: 0;
+}
+
+.icon-header .collapse.navbar-collapse{
+    display: none;
+}
+
+.icon-header.active .collapse.navbar-collapse{
+    display: block;
+}
+
+.icon-header .menu-toggle {
+    top: 68%;
+}
+
+.icon-header.active .menu-toggle {
+    top: 10%;
+}
+.menu-toggle + .navbar-collapse {
+    margin-right: 0;
+    margin-top: 70px;
+}
+.nav.navbar-nav.navbar-right,.stick .nav.navbar-nav.navbar-right{
+  background-color: #252525;
+  padding: 0;
+  margin-top:-2px;
+}
+.main-menu ul.navbar-nav li,.stick .main-menu ul.navbar-nav li  {
+  display:block;
+}
+.main-menu ul.navbar-nav li a,.stick .main-menu ul.navbar-nav li a {
+  padding: 10px 2px;
+}
+.main-menu ul.navbar-nav li.active a::after,.stick .main-menu ul.navbar-nav li.active a::after {
+  border: 0px solid #fff;
+}
+.header-bottom h1 {
+    font-size: 27px;
+}
+.header-bottom h2 {
+    font-size: 24px;
+}
+.section-head h2 {
+    font-size: 25px;
+}
+.self-img {
+    margin-bottom: 30px;
+}
+.about-text > li {
+    width: 100%;
+}
+.about-details {
+    margin-top: 30px;
+}
+.project-menu li a {
+    padding: 8px 4px;
+}
+.single-blog {
+    margin-bottom: 30px;
+}
+.add-content h2 {
+    font-size: 29px;
+    line-height: 40px;
+}
+.add-content > h4 {
+    font-size: 20px;
+}
+    .pri_table_list,.single-team-member{
+       margin-bottom: 30px;
+    }
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+
+.header-bottom h1 {
+    font-size: 44px;
+}
+.header-bottom h2 {
+    font-size: 40px;
+}
+.section-head h2 {
+    font-size: 40px;
+}
+.about-text > li {
+    width: 41%;
+}
+.add-content h2 {
+    font-size: 30px;
+    line-height: 50px;
+}
+    
+}
+ 
